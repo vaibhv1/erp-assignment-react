@@ -1,0 +1,46 @@
+.dashboard {
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.metric {
+  margin-right: 20px;
+}
+
+.metric-label {
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navigation a {
+  margin: 0 10px;
+}
+
+.dashboard-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}

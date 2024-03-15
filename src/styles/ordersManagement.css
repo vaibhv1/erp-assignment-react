@@ -1,0 +1,35 @@
+/* ordersManagement.css */
+
+/* Container for the entire page */
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align the button to the right */
+  margin-top: 20px; /* Add some spacing between the table and button */
+}
+
+.button {
+  /* Your existing button styles */
+  display: inline;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.products-management {
+  color: #FFFFFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./logistics.jpg') no-repeat center center fixed;
+  background-size: 100%;
+}
+
+/* Adjust the button styling within .products-management */
+.products-management button {
+  /* Add any specific styles you want for the button here */
+  margin-bottom: 20%; /* Adjust as needed */
+}
