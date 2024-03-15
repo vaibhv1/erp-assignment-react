@@ -25,7 +25,6 @@ const ParentComponent = () => {
 
   return (
     <div>
-      {/* Pass the orders prop to the OrdersCalendarView component */}
       <OrdersCalendarView orders={orders} />
     </div>
   );
