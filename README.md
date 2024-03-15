@@ -1,7 +1,11 @@
 On how to run the project:
+
   1-Clone the project
+ 
   2-Open it in VS code
+  
   3-Run "npm install" command in the terminal where the project is opened in VS Code
+  
   4-install dependencies i.e., react-calender 
     cmd: "npm install react-calender"
 
